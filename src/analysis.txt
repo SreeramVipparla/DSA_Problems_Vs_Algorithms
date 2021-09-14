@@ -40,9 +40,8 @@ Here in the code the space complexity of the code is O(n) asfor each input eleme
 
 # Task-4
 Dutch_National_Flag.py
-In this code the objective was to sort the array without using an python provided sorting functions.
-to solve this issue I made sure that the code scans through the entire array and store the count of each digit in a dictionary.
-
+In this code the the goal is to keep a count of number of 0s, 1s and 2s in the given array.The  Output list will contain the appropriate number of 0s, 1s and 2s Since the code runs through the list only once.
+To solve this issue I have made the program  traverse the array to sort it.
 Time complexity-
 In this code since the functions  increase linearly and in direct proportion to the number of inputs the time complexity of the code is O(n).
 
@@ -52,10 +51,20 @@ Due to this the space complexity of the code is O(n).
 
 # Task-5
 Trie.py-
-In thi code to solve the issue i have implemented a trie datastructure that returns all the words related  in a list to the  input prefix.
+In this code to solve the issue i have implemented a trie datastructure that returns all the words related  in a list to the  input prefix.
 
 Time complexity-
 Here in the code the worst case senario is when we have to go through each node.Due to this the time complexity of the code is O(n)[n is the number of nodes]
+complexities of vital methods-
+1)Insert->The time complexity of this method is O(n)[n is the length of the  given word].
+
+The space complexity of the method is O(n)[n is the number of nodes] because the trie space initially grows linearly with the number of words but later gradually decrease due to overlapping words.
+
+2)Generate_suffix->The time complexity of this method is O(n)[n is the number of trie nodes].
+
+The space complexity of Generate_suffix is O(n) [n is the number of trie nodes] because it performs a linear operation is case of a dictionary containing similar prefixes to the word given.
+
+3)Find->The time complexity of this method is O(n)[n is the length of the string]
 
 Space complexity-
 In the code for each input element there may be up to a fixed number of k bytes allocated.
@@ -71,12 +80,12 @@ Time complexity-
 In this code since the functions  increase linearly and in direct proportion to the number of inputs the time complexity of the code is O(n).
 
 Space complexity-
-In the code for each input element there may be up to a fixed number of k bytes allocated.
-Due to this the space complexity of the code is O(n).
+In the following code the space complexity of the code is O(1) as the function does ot depend on the size of the input,due to this it takes constant time.
 
 # Task-7
 Http_router.py-
-in this code to solev the issue i have created a working dictionary with an efficient trie datastructure similar to that of Task5(Trie.py).
+in this code to solve the issue i have created a working dictionary with an efficient trie datastructure similar to that of Task5(Trie.py).
+The time complexities of some vital methods for insreting,searching,deleting from the trie depend on the length of the word.Due to this the time complexity of these vital ethods isw O(an)
 
 Time complexity-
 Here in the code since each element can be indirectly accessed the complexity is linear with a time complexity of O(mn)
