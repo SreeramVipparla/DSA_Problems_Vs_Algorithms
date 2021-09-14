@@ -48,6 +48,8 @@ In this code since the functions  increase linearly and in direct proportion to 
 Space complexity-
 In the code since the space required by the algorithm to process the data is constant the space complexity of the code is O(1).
 
+
+# Task-5
 Trie.py-
 In this code to solve the issue i have implemented a trie datastructure that returns all the words related  in a list to the  input prefix.
 
@@ -90,9 +92,14 @@ Complexities of various important methods->
 
 Space complexity of the method is O(n) as for each input only a certain amount of bytes are alloted.
 
-2)Find-Same as the above case The time complexity of the method is O(an) as the time complexity depends on the length of the word.
+2)Find-Same as the above case The time complexity of the method is O(an) as the time complexity depends on the number of words.
 
-space complexity of this method is also O(an) as only a fixed amount of bytes are alloted to each input.
+
+space complexity of this method is also O(n) as only a fixed amount of bytes are alloted to each input.
+
+3)split_path-In this method the time complexity is O(an) as it depends on the total number of words.
+
+space complexity of this method is O(n) as Splitting a string to store individual parts of the path is dependent on the length of the string and the depth or level of the path.
 
 
 Time complexity-
