@@ -1,0 +1,85 @@
+Analysis
+# Task-1
+Square_root_of_an_integer.py-
+ 
+Inthis code to solve the issue of solving the square root of an integer i have used a binary search algorithm.I also made sure to limit my code according to the constraints given.
+
+Time complexity-
+Since the code is dominated by the binary search algorithm the time complexity of the code is O(log(n)).
+
+Space complexity-
+In the code since the scape complexity does not depend on the input given.
+Therefore the space complexity of the code is O(1).
+
+# Task-2
+Search_in_a_rotated sort_Array.py-
+
+In this code for solving issue i have used a binary search algorithm.
+But here since it is a rotated array search i have divided the array into two parts and check them each time.
+
+Time complexity-
+In this code since the  running time grows in proportion to the logarithm of the input size 
+the time complexity of the code is O(logn).
+
+Spcae complexity-
+In the code since the scape complexity does not depend on the input given.
+Therefore the space complexity of the code is O(1).
+
+# Task-3
+Rearrange_Array_Digits.py-
+
+In this code for solving the problem i have ordered the components and sorted them
+ to create a numbert dependent on a sequence of sum of the higher digits.
+
+Time complexity-
+Here in the code the  data set is repeatedly divided into half and each half is processed again independently.
+due to this the time complexity of the code is O(n log n).
+
+Space complexity-
+Here in the code the space complexity of the code is O(n) asfor each input element there may be up to a fixed number of k bytes allocated.
+
+# Task-4
+Dutch_National_Flag.py
+In this code the objective was to sort the array without using an python provided sorting functions.
+to solve this issue I made sure that the code scans through the entire array and store the count of each digit in a dictionary.
+
+Time complexity-
+In this code since the functions  increase linearly and in direct proportion to the number of inputs the time complexity of the code is O(n).
+
+Space complexity-
+In the code for each input element there may be up to a fixed number of k bytes allocated.
+Due to this the space complexity of the code is O(n).
+
+# Task-5
+Trie.py-
+In thi code to solve the issue i have implemented a trie datastructure that returns all the words related  in a list to the  input prefix.
+
+Time complexity-
+Here in the code the worst case senario is when we have to go through each node.Due to this the time complexity of the code is O(n)[n is the number of nodes]
+
+Space complexity-
+In the code for each input element there may be up to a fixed number of k bytes allocated.
+Due to this the space complexity of the code is O(n).
+
+
+# Task-6
+Unsorted_integer_array.py-
+In this code to find out the smallest and largest integer from a list of unsorted integers i  have used a linear search algorith to cross check
+and verify and update the findings accordingly.
+
+Time complexity-
+In this code since the functions  increase linearly and in direct proportion to the number of inputs the time complexity of the code is O(n).
+
+Space complexity-
+In the code for each input element there may be up to a fixed number of k bytes allocated.
+Due to this the space complexity of the code is O(n).
+
+# Task-7
+Http_router.py-
+in this code to solev the issue i have created a working dictionary with an efficient trie datastructure similar to that of Task5(Trie.py).
+
+Time complexity-
+Here in the code since each element can be indirectly accessed the complexity is linear with a time complexity of O(mn)
+
+Space complexity-
+In this code since the functions  increase linearly and in direct proportion to the number of inputs the time complexity of the code is O(n).
