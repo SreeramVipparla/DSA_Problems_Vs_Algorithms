@@ -46,16 +46,14 @@ Time complexity-
 In this code since the functions  increase linearly and in direct proportion to the number of inputs the time complexity of the code is O(n).
 
 Space complexity-
-In the code for each input element there may be up to a fixed number of k bytes allocated.
-Due to this the space complexity of the code is O(n).
+In the code since the space required by the algorithm to process the data is constant the space complexity of the code is O(1).
 
-# Task-5
 Trie.py-
 In this code to solve the issue i have implemented a trie datastructure that returns all the words related  in a list to the  input prefix.
 
 Time complexity-
-Here in the code the worst case senario is when we have to go through each node.Due to this the time complexity of the code is O(n)[n is the number of nodes]
-complexities of vital methods-
+Here in the code the worst case senario is when we have to go through each node.Due to this the time complexity of the code is O(n)[n is the number of nodes].
+Complexities of vital methods-
 1)Insert->The time complexity of this method is O(n)[n is the length of the  given word].
 
 The space complexity of the method is O(n)[n is the number of nodes] because the trie space initially grows linearly with the number of words but later gradually decrease due to overlapping words.
@@ -84,8 +82,18 @@ In the following code the space complexity of the code is O(1) as the function d
 
 # Task-7
 Http_router.py-
-in this code to solve the issue i have created a working dictionary with an efficient trie datastructure similar to that of Task5(Trie.py).
-The time complexities of some vital methods for insreting,searching,deleting from the trie depend on the length of the word.Due to this the time complexity of these vital ethods isw O(an)
+In this code to solve the issue i have created a working dictionary with an efficient trie datastructure similar to that of Task5(Trie.py).
+The time complexities of some vital methods for inserting,searching,deleting from the trie depend on the length of the word.Due to this the time complexity of these vital ethods isw O(an)
+Complexities of various important methods->
+
+1)Insert-The time complexity of the method is O(an) as the time complexity depends on the length of the word.
+
+Space complexity of the method is O(n) as for each input only a certain amount of bytes are alloted.
+
+2)Find-Same as the above case The time complexity of the method is O(an) as the time complexity depends on the length of the word.
+
+space complexity of this method is also O(an) as only a fixed amount of bytes are alloted to each input.
+
 
 Time complexity-
 Here in the code since each element can be indirectly accessed the complexity is linear with a time complexity of O(mn)
