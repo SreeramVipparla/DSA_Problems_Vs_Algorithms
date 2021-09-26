@@ -1,4 +1,4 @@
-# DSA Problems Vs Algorithms
+# DSA Problems Vs Algorithms Project
 
 ## Introduction
 This  DSA project involves a series of real-world open ended problems such as request routing for web server, search-term auto-completion and Fibonacci heap which help to apply suitable data structures and algorithms under different context.
